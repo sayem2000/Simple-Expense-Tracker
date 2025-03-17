@@ -1,0 +1,59 @@
+* {line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;}
+    
+    body {display: flex;
+    justify-content: center;}
+    
+    #main-card{background-color: Cornsilk;
+    height: auto;
+    width: 600px;
+    border: 3px solid chocolate;
+    border-radius: 10px;
+    margin-top: 200px;
+    padding: 15px;}
+    
+    h2{text-align: center;}
+    
+    #balance-card{display: flex;
+    justify-content: space-between;}
+    
+    #balance1, #balance2, #balance3 {background-color: bisque;
+    width: 150px;
+    height: 50px;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    text-align: center;}
+    
+    #dee {margin: 0px;}
+    #de-po1 {margin: 0px;}
+    
+    #wii {margin: 0px;}
+    #wi-th1 {margin: 0px;}
+    
+    #baa {margin: 0px;}
+    #ba-la1 {margin: 0px;}
+    
+    form { margin-top: 30px;    
+    display: flex;    
+    justify-content: center;
+    align-items: center;}
+    
+    input { padding: 5px;
+    width: 493px;
+    border-radius: 5px;}
+    
+    #button1{display: flex; 
+    margin: 20px 0px 15px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;}
+    
+    #de-btn, #Wi-btn1{height: 40px; 
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;}
+    
+    #de-btn{background-color: green;}
+    #Wi-btn1{background-color: red;}    

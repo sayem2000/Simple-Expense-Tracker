@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="fav-icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Expense Tracker</title>
+    </head>
+    <body>
+
+        <!-- button section -->
+        <div id="main-card">
+            <h2>Simple Expense Tracker</h2>
+            <div id="balance-card">
+                <div id="balance1">
+                    <p id="dee"><b>Total Deposit</b></p>
+                    <p id="de-po1">$0.00</p>
+                </div>
+                <div id="balance2">
+                    <p id="wii"><b>Total Withdraw</b></p>
+                    <p id="wi-th1">$ 0.00</p>
+                </div>
+                <div id="balance3">
+                    <p id="baa"><b>Total Balance</b></p>
+                    <p id="ba-la1">$ 0.00</p>
+                </div>
+            </div>
+            <form>
+            <input type="number" name="num" id="inp">
+        </form>
+            <div  id="button1">
+
+                <button type="button" id="de-btn" onclick="deposit()">
+                    Deposite
+                </button>
+                <button type="button"  id="Wi-btn1" onclick="withdraw()" >
+                    Withdraw
+                </button>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+
+</html>
